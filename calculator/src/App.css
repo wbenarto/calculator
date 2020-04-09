@@ -1,5 +1,34 @@
 .App {
   text-align: center;
+  margin:auto;
+}
+
+.body {
+margin: auto;
+}
+
+.calc-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.result {
+  height: 60px;
+  background-color:#bbb;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+}
+
+.buttons {
+  display: block;
+  background-color: #bbb;
+}
+
+.buttons button {
+  
 }
 
 .App-logo {

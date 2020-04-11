@@ -27,12 +27,8 @@ export default class Keys extends Component {
                 <button name='9' onClick={this.buttonPressed}>9</button>
                 <button name='=' onClick={this.buttonPressed}>=</button>
                 <button name='0' onClick={this.buttonPressed}>0</button>
+                <button name='.' onClick={this.buttonPressed}>.</button>
                 
-                
-                
-                
-                
-
             </div>
         )
     }

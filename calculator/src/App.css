@@ -3,8 +3,11 @@
   margin:auto;
 }
 
-body {
+.calc-body {
 margin: auto;
+padding: 20px;
+height: 500px;
+width: 400px;
 background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
 }
 

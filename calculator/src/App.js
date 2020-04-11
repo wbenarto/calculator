@@ -19,6 +19,8 @@ class App extends Component {
     } else if (buttonName === 'C') {
       this.reset()
     } else if (buttonName === 'CE') {
+      console.log(typeof this.state.result)
+      
       this.backspace();
     } else
       this.setState({
@@ -60,6 +62,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="calc-body">
+          {/* Navbar */}
+        
           <Output result={this.state.result} />
           <Keys buttonPressed={this.buttonPressed} />
         </div>

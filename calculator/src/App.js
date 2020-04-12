@@ -19,9 +19,13 @@ class App extends Component {
     } else if (buttonName === 'C') {
       this.reset()
     } else if (buttonName === 'CE') {
-      console.log(typeof this.state.result)
+      if (typeof this.state.result !== String) {
+        this.reset()
+      }
+      else this.backspace();
+      console.log("type of : " + typeof this.state.result)
       
-      this.backspace();
+      
     } else
       this.setState({
         result: this.state.result + buttonName,
